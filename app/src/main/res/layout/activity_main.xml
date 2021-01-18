@@ -156,11 +156,12 @@
             android:layout_marginTop="@dimen/_32dp"
             android:background="@android:color/darker_gray" />
 
-    </LinearLayout>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_main"/>
+    </LinearLayout>
 
 </ScrollView>
