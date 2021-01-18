@@ -1,3 +1,185 @@
 <resources>
     <string name="app_name">RecipeApp</string>
+    <string name="name_priyanka_uzlah">Priyanka Uzlah</string>
+    <string name="email_priyankauzlah_gmail_com">priyankauzlah@gmail.com</string>
+    <string name="txt_more">More</string>
+    <string name="txt_top_menu">Top Menu</string>
+    <string name="txt_nasi_goreng">Nasi Goreng</string>
+    <string name="txt_sate">Sate</string>
+    <string name="txt_siomay">Siomay</string>
+    <string name="txt_batagor">Batagor</string>
+    <string name="txt_soto">Soto</string>
+    <string name="txt_gudeg">Gudeg</string>
+    <string name="txt_gado_gado">Gado - Gado</string>
+    <string name="txt_bakso">Bakso</string>
+    <string name="image_view">Image View</string>
+    <string name="tv_bakmi">Bakmi</string>
+
+    <string-array name="name_food">
+        <item>Soto</item>
+        <item>Hash Brown</item>
+        <item>Muffins</item>
+        <item>Brussels Sprouts</item>
+        <item>Lentil and Ham Soup</item>
+        <item>Miso Soup</item>
+        <item>California Italian Soup</item>
+        <item>Russian Mushroom and Potato Soup</item>
+        <item>Chicken Chilaquiles Rojas</item>
+        <item>Chicken Enchiladas</item>
+        <item>Juicy Roasted Chicken</item>
+        <item>Zucchini Bread</item>
+        <item>Buttermilk Pie</item>
+        <item>Mini Skillet Buttermilk-Pear Pies</item>
+        <item>Starter Smoothie</item>
+        <item>Razzy Blue Smoothie</item>
+        <item>Rigatoni alla Genovese</item>
+        <item>Macaroni and Cheese</item>
+        <item>Mom Sykes' Hungarian Goulash</item>
+        <item>RumChata® Pudding Shots</item>
+        <item>French 75 Jell-O® Shots</item>
+        <item>Jalapeno Margaritas</item>
+        <item>Spicy Tuna Rolls</item>
+        <item>Kabobs</item>
+        <item>Chinese Lion's Head Soup</item>
+    </string-array>
+
+    <string-array name="desc_food">
+        <item>Soto is a traditional Indonesian soup mainly composed of broth, meat, and vegetables. Many traditional soups are called soto, whereas foreign and Western influenced soups are called sop. Soto is sometimes considered Indonesia's national dish, as it is served from Sumatra to Papua, in a wide range of variations</item>
+        <item>Hash browns, also spelled hashed browns, are a popular American breakfast dish, consisting of finely chopped potatoes that have been fried until browned. Hash browns first started appearing on breakfast menus in New York City in the 1890s.</item>
+        <item>A muffin is an individual-sized, baked product. It can refer to two distinct items, a part-raised flatbread that is baked and then cooked on a griddle and a cupcake-like quickbread that is chemically leavened and then baked in a mold.</item>
+        <item>Sweet and tart balsamic vinegar pairs well with the bitterness of Brussels sprouts; the bacon adds a smokey flavor. After 10 minutes, there's still some bite to the sprouts; add a few more minutes for a softer texture, if desired.</item>
+        <item>Come home at the end of the day to a richly spiced broth filled with lentils, ham and veggies. Pair it up with cornmeal muffins and you have a great meal!</item>
+        <item>Make your very own Japanese miso soup from scratch. It's easy to do at home! Perfect for an appetizer or light, warming lunch.</item>
+        <item>This is my variation of a standard recipe. I like fresh basil and a little lemon rind, so those are basically my only changes. This is a quick and easy soup with flavors that impress all.</item>
+        <item>I make this soup every Halloween and is the 'signal' to the family that the cool weather has arrived. I've been making it for 15 years now and out of all the soups I make, it is still everyone's favorite. Enjoy!</item>
+        <item>One of my favorite comfort foods from growing up in Tucson. It's great for a potluck or party and you'll get lots of compliments from your guests! This is a "roja" version but there is a "verde" style, too. Both are great and can be made hot or mild depending upon your heat tolerances or preferences. Serve with your favorite salsa, if desired.</item>
+        <item>Enchiladas made easy! Garnish with diced tomatoes, shredded lettuce, and any of your favorites!</item>
+        <item>My grandmother's recipe for roasted chicken. We are German and she used to do it this way all the time. I never have had a chicken this juicy before; this little trick works and makes the people eating it go silent. It's funny. We nibble on the celery after.</item>
+        <item>Really, really good and moist- my kids eat it as quickly as I can make it. Bread will freeze well, and keep in refrigerator for weeks.</item>
+        <item>This old-fashioned pie is wonderful to freeze and to have on hand for unexpected guests!</item>
+        <item>Baking pies in mini skillets is a great way to control portions. Enjoy these mini skillet poached pear and buttermilk pies with whipped cream or ice cream if desired.</item>
+        <item>Smoothies are an easy way to get more fruits and vegetables into your day, but calories can add up fast. For a smoothie that's only about 200 calories, follow our formula and use 1 cup fresh fruit or vegetables and/or cooked, frozen vegetables + 1 cup fruit juice. Blueberries and grape juice are featured here.</item>
+        <item>This naturally sweet and creamy, frosty cold smoothie packs a lot of flavor and a nutritious punch.</item>
+        <item>I have no idea why this amazingly flavorful Genovese-style meat sauce isn't way more popular than it is. It's quite simply one of the best pasta sauces you'll ever taste, thanks to a very slow cooking process, and massive amounts of onions.</item>
+        <item>A very quick and easy fix to a tasty side-dish. Fancy, designer mac and cheese often costs forty or fifty dollars to prepare when you have so many exotic and expensive cheeses, but they aren't always the best tasting. This recipe is cheap and tasty.</item>
+        <item>The lemon flavor gives you a pleasant surprise in this tender goulash served over egg noodles.</item>
+        <item>These are even better than Jell-O® shots. You could also serve these after dinner in place of dessert.</item>
+        <item>The fanciest cocktail goes jiggly - bubbles and all.</item>
+        <item>Margaritas with a spicy kick! The agave nectar and fresh lime juice make a big difference. Include the jalapeno seeds for an extra kick!</item>
+        <item>Even if you're new to sushi making, this recipe for spicy tuna rolls is easy to make at home.</item>
+        <item>Grilled steak and chicken that doesn't dry out on the grill, but stays moist and flavorful. These kabobs are simple to make, and delicious to eat. Skewered meat with peppers, onions, and mushrooms in a honey teriyaki sauce.</item>
+        <item>This is my family's version of lion's head soup and for me it is the best type of comfort food! It is best served with white sticky rice, and wonderful enjoyed on a cold winter day.</item>
+    </string-array>
+
+    <string-array name="ingredients_food">
+        <item>8 chicken thighs skin removed <br/>8 cups chicken stock no sodium (homemade is nice here) <br/>1 stalk lemongrass cut into 3 pieces <br/>3 kaffir lime leaves <br/>1 tsp salt <br/>vegetable oil to shallow fry <br/>12 oz rice vermicelli <br/>4 large eggs <br/>chopped cilantro to garnish <br/>fried shallots to garnish <br/>sambal ulek to serve <br/>lime wedges to serve</item>
+        <item>20 oz frozen shredded hash brown (565 g), thawed <br/>1 ¼ cups shredded cheddar cheese (125 g), shredded <br/>1 tablespoon olive oil <br/>12 eggs <br/>salt, to taste <br/>pepper, to taste</item>
+        <item>Nonstick cooking spray, for greasing <br/>1 batch Tasty's Stuffin’ Muffins Base <br/>1 ½ cups shredded cheddar cheese (150 g), divided <br/>2 teaspoons fresh rosemary, chopped <br/>2 large eggs <br/>½ teaspoon McCormick® Rubbed Sage</item>
+        <item>1 teaspoon avocado oil <br/>½ teaspoon salt <br/>½ teaspoon ground black pepper <br/>10 ounces Brussels sprouts, trimmed and halved lengthwise <br/>1 teaspoon balsamic vinegar <br/>2 teaspoons crumbled cooked bacon (Optional)</item>
+        <item>1 cup dried lentils <br/>1 cup chopped celery <br/>1 cup chopped carrots <br/>1 cup chopped onion <br/>2 cloves garlic, minced <br/>1 ½ cups diced cooked ham <br/>½ teaspoon dried basil <br/>¼ teaspoon dried thyme <br/>½ teaspoon dried oregano <br/>1 bay leaf <br/>¼ teaspoon black pepper <br/>32 ounces chicken broth <br/>1 cup water <br/>8 teaspoons tomato sauce</item>
+        <item>1 tablespoon finely chopped wakame <br/>4 cups water <br/>2 teaspoons dashi granules <br/>3 tablespoons miso paste <br/>4 ounces silken tofu, cubed <br/>2 green onions, sliced on the bias</item>
+        <item>½ pound extra-lean ground beef <br/>1 egg, lightly beaten <br/>2 tablespoons Italian-seasoned breadcrumbs <br/>1 tablespoon grated Parmesan cheese <br/>2 tablespoons shredded fresh basil leaves <br/>1 tablespoon chopped Italian flat leaf parsley (Optional) <br/>2 green onions, sliced (Optional) <br/>5 ¾ cups chicken broth <br/>2 cups finely sliced escarole (spinach may be substituted) <br/>1 lemon, zested <br/>½ cup orzo (rice-shaped pasta), uncooked <br/>grated Parmesan cheese for topping</item>
+        <item>5 tablespoons butter, divided <br/>2 leeks, chopped <br/>2 large carrots, sliced <br/>6 cups chicken broth <br/>2 teaspoons dried dill weed <br/>2 teaspoons salt <br/>⅛ teaspoon ground black pepper <br/>1 bay leaf <br/>2 pounds potatoes, peeled and diced <br/>1 pound fresh mushrooms, sliced <br/>1 cup half-and-half <br/>¼ cup all-purpose flour <br/>1 sprig fresh dill weed, for garnish</item>
+        <item>1 (28 ounce) can whole peeled tomatoes, drained <br/>2 chipotle chiles in adobo sauce, or more to taste <br/>1 ½ tablespoons vegetable oil <br/>1 large white onion, thinly sliced <br/>3 cloves garlic, minced <br/>1 ½ cups chicken broth <br/>1 dash roasted ground cumin <br/>1 dash dried oregano <br/>salt and ground black pepper to taste <br/>1 (16 ounce) package tortilla chips <br/>1 (8 ounce) package shredded Mexican cheese blend <br/>5 ounces crumbled cotija cheese <br/>1 whole cooked chicken, deboned and shredded <br/>⅔ cup chopped green onions, divided <br/>1 cup chopped cilantro, divided <br/>1 (8 ounce) carton sour cream, divided</item>
+        <item>2 tablespoons olive oil <br/>1 medium yellow onion, finely chopped <br/>4 garlic cloves, minced <br/>1 whole roasted chicken, bones and skin removed, meat shredded <br/>1 cup shredded Mexican cheese blend <br/>½ (8 ounce) package cream cheese, softened <br/>¼ cup salsa verde <br/>1 (2.5 ounce) can sliced olives, drained and diced <br/>¼ cup chopped fresh cilantro <br/>½ (4 ounce) can diced jalapeno peppers (Optional) <br/>¼ cup butter <br/>¼ cup all-purpose flour <br/>2 cups chicken broth <br/>1 cup sour cream <br/>½ cup salsa verde <br/>16 corn tortillas <br/>1 cup shredded Mexican cheese blend</item>
+        <item>1 (3 pound) whole chicken, giblets removed <br/>salt and black pepper to taste <br/>1 tablespoon onion powder, or to taste <br/>½ cup margarine, divided <br/>1 stalk celery, leaves removed</item>
+        <item>3 cups all-purpose flour <br/>1 teaspoon salt <br/>1 teaspoon baking soda <br/>1 teaspoon baking powder <br/>1 tablespoon ground cinnamon <br/>3 eggs <br/>1 cup vegetable oil <br/>2 ¼ cups white sugar <br/>3 teaspoons vanilla extract <br/>2 cups grated zucchini <br/>1 cup chopped walnuts</item>
+        <item>3 eggs <br/>½ cup butter, softened <br/>1 ½ cups white sugar <br/>3 tablespoons all-purpose flour <br/>1 cup buttermilk <br/>1 teaspoon vanilla extract <br/>1 tablespoon lemon juice <br/>⅛ teaspoon freshly grated nutmeg <br/>1 (9 inch) unbaked pie crust</item>
+        <item>2 ½ cups white sugar <br/>2 cups water <br/>½ cup cinnamon syrup <br/>3 cinnamon sticks <br/>3 red Anjou pears - peeled, halved, and cored <br/>1 (15 ounce) package prepared pie pastry, at room temperature <br/>2 cups white sugar <br/>½ cup all-purpose flour <br/>½ teaspoon ground nutmeg <br/>¼ teaspoon sea salt <br/>6 large eggs <br/>1 ½ cups buttermilk <br/>1 tablespoon lemon juice <br/>1 teaspoon lemon zest <br/>½ cup melted butter <br/>1 teaspoon vanilla bean paste <br/>⅔ cup chopped walnuts</item>
+        <item>1 cup fresh blueberries <br/>1 cup grape juice <br/>1 banana, cut into chunks and frozen <br/>½ cup low-fat plain Greek-style yogurt <br/>1 cup ice (Optional) <br/>1 teaspoon honey, or to taste</item>
+        <item>1 banana <br/>16 whole almonds <br/>¼ cup rolled oats <br/>1 tablespoon flaxseed meal <br/>1 cup frozen blueberries <br/>1 cup raspberry yogurt <br/>¼ cup Concord grape juice <br/>1 cup 1% buttermilk</item>
+        <item>1 tablespoon olive oil <br/>6 ounces pancetta or salt pork, diced <br/>2 ½ pounds beef chuck <br/>2 teaspoons kosher salt <br/>½ cup diced celery <br/>½ cup diced carrot <br/>1 teaspoon kosher salt <br/>1 teaspoon freshly ground black pepper <br/>1 tablespoon tomato paste <br/>1 bay leaf <br/>⅔ cup white wine <br/>4 pounds yellow onions, sliced <br/>2 pounds red onions, sliced <br/>salt to taste <br/>2 (16 ounce) boxes uncooked rigatoni <br/>1 tablespoon chopped fresh marjoram leaves <br/>1 pinch cayenne pepper <br/>2 tablespoons freshly grated Parmigiano-Reggiano cheese</item>
+        <item>1 (8 ounce) box elbow macaroni <br/>¼ cup butter <br/>¼ cup all-purpose flour <br/>½ teaspoon salt <br/>ground black pepper to taste <br/>2 cups milk <br/>2 cups shredded Cheddar cheese</item>
+        <item>3 tablespoons butter <br/>2 pounds cubed beef stew meat <br/>1 pinch caraway seeds (Optional) <br/>1 pound onion, sliced <br/>2 teaspoons paprika <br/>1 clove garlic, minced <br/>1 tablespoon lemon zest <br/>1 (6 ounce) can tomato paste <br/>1 (10.5 ounce) can beef consomme <br/>1 (10 ounce) package broad egg noodles, cooked, rinsed, drained (Kosher for Passover)</item>
+        <item>1 cup milk <br/>1 cup rum cream liqueur (such as RumChata®) <br/>1 (4 ounce) package instant chocolate pudding mix <br/>1 (8 ounce) container frozen whipped topping (such as Cool Whip®), thawed</item>
+        <item>1 cup boiling water <br/>½ (3 ounce) package lemon-flavored gelatin mix (such as Jell-O®) <br/>¼ cup gin <br/>1 ¾ cups sparkling wine, divided <br/>3 (.25 ounce) envelopes unflavored gelatin <br/>1 drop red food coloring</item>
+        <item>kosher salt <br/>ice cubes <br/>4 fluid ounces tequila <br/>2 fluid ounces triple sec <br/>2 limes, juiced <br/>1 tablespoon agave nectar <br/>½ jalapeno pepper, seeded and diced <br/>1 limes, cut into wedges</item>
+        <item>4 sheets nori (dry seaweed) <br/>½ pound sashimi-grade tuna, finely chopped <br/>4 tablespoons mayonnaise <br/>2 green onions, chopped <br/>1 tablespoon hot chile sauce <br/>2 ½ cups prepared sushi rice <br/>1 tablespoon sesame seeds</item>
+        <item>½ cup teriyaki sauce <br/>½ cup honey <br/>½ teaspoon garlic powder <br/>½ pinch ground ginger <br/>2 red bell peppers, cut into 2 inch pieces <br/>1 large sweet onion, peeled and cut into wedges <br/>1 ½ cups whole fresh mushrooms <br/>1 pound beef sirloin, cut into 1 inch cubes <br/>1 ½ pounds skinless, boneless chicken breast halves - cut into cubes <br/>skewers</item>
+        <item>1 pound ground pork <br/>1 egg <br/>1 tablespoon cornstarch <br/>2 teaspoons sesame oil <br/>1 tablespoon minced fresh ginger root <br/>¼ teaspoon monosodium glutamate (MSG) (Optional) <br/>1 teaspoon salt <br/>2 green onions, chopped and divided <br/>1 tablespoon vegetable oil <br/>1 head napa cabbage, cored and cut into chunks <br/>2 cups low-sodium chicken broth <br/>2 cups water, or as needed <br/>1 tablespoon soy sauce <br/>2 teaspoons sesame oil</item>
+    </string-array>
+
+    <string-array name="steps_food">
+        <item>Skin the chicken. <br/>Combine the stock, kaffir lime leaf, lemongrass and salt in a pot large enough to hold all the ingredients. Bring to a simmer. <br/>Add the chicken and simmer until the chicken reaches an internal temperature of 170F. This should take 15-20 minutes. Don't boil. Simmer. Little bubbles. <br/>Remove the chicken from the broth. Blot dry. Set aside. You can also turn off the heat under the broth for now. <br/>Bring the broth to a lively simmer. Taste it. Be careful. It's hot. It will need more salt. It will be somewhere around another 1/2 to full teaspoon. Maybe more. Season to your taste. <br/>To soften the rice vermicelli just fully submerge it in the hottest water you can get out of your tap. Let it sit five minutes and drain. Rinse with cold water. People that tell you to cook rice vermicelli like to eat rice noodle mush. <br/>Have your garnishes ready. Slice your eggs in half. Use a sharp knife and be careful. Those yolks are still soft. <br/>To serve place 1/4 of the rice noodles in each of 4 bowls. Divide the chicken and place it on the vermicelli. Top with fried shallots and cilantro. Pour 2 cups of broth into each bowl. Add one egg and a slice of lime per bowl. Serve. Add sambal ulek to taste. Enjoy.</item>
+        <item>In a bowl, combine hash browns, one cup of cheddar (100 g), salt, pepper, and olive oil. <br/>Divide hash brown mixture into the cups of a 12-cup muffin tin. Press the hash browns down firmly along the shape of the cups. Bake at 400°F (200°C) for 20 minutes to set the cups. <br/>Crack an egg into each cup and sprinkle some salt, pepper, and the remaining cheddar on top. Bake again at 350°F (180°C) for 13-15 minutes, or until the egg whites have set. <br/>After they have cooled, remove cups by running a knife along their edges. Serve with all the toppings you desire! <br/>Enjoy!</item>
+        <item>Preheat the oven to 375°F (190°C). Grease a 12-cup muffin tin with nonstick spray. <br/>Add 1 cup shredded cheddar and the rosemary to the stuffing base and stir to combine. Fold in the eggs until incorporated. <br/>Spoon about ¼ cup of the stuffing into each muffin cup, filling just above the rims. Press down gently with a spoon to release any air pockets. Sprinkle the remaining ½ cup shredded cheddar over the muffins, then finish with a sprinkle of the McCormick® Rubbed Sage. <br/>Bake the muffin cups for 25–30 minutes, or until cooked through and the tops are browned. Let rest in the muffin tin for 20 minutes, then run a knife around the edges of each cup to release. <br/>Serve warm. <br/>Enjoy!</item>
+        <item>Preheat an air fryer to 350 degrees F (175 degrees C). <br/>Combine oil, salt, and pepper in a bowl and mix well. Add Brussels sprouts and turn to coat. <br/>Air fry for 5 minutes, shake the sprouts, and cook for an additional 5 minutes. <br/>Transfer sprouts to a serving dish and sprinkle with balsamic vinegar; turn to coat. Sprinkle with bacon.</item>
+        <item>In a 3 1/2 quart or larger slow cooker combine the lentils, celery, carrots, onion, garlic and ham. Season with basil, thyme, oregano, the bay leaf and pepper. Stir in the chicken broth, water and tomato sauce. Cover and cook on Low for 11 hours. Discard the bay leaf before serving.</item>
+        <item>Place wakame in a fine-mesh sieve and soak in some cold water for 10 minutes. <br/>Combine 4 cups water and dashi granules in a saucepan and bring to a boil over medium heat. Add miso paste and whisk to dissolve. Add wakame and simmer for 3 minutes. <br/>Divide tofu between 4 serving bowls. Ladle miso soup on top and garnish with green onions.</item>
+        <item>Mix together the meat, egg, bread crumbs, cheese, basil, parsley, and green onions; shape into 3/4 inch balls. <br/>Pour broth into a large saucepan over high heat. When boiling, drop in meatballs. Stir in escarole, lemon zest and orzo. Return to a boil; reduce heat to medium. Cook at a slow boil for 10 minutes or until orzo is tender, stirring frequently. Serve sprinkled with cheese.</item>
+        <item>Melt 3 tablespoons butter in a large saucepan over medium heat. Mix in leeks and carrots, and cook 5 minutes. Pour in broth. Season with dill, salt, pepper, and bay leaf. Mix in potatoes, cover, and cook 20 minutes, or until potatoes are tender but firm. Remove and discard the bay leaf. <br/>Melt the remaining butter in a skillet over medium heat, and saute the mushrooms 5 minutes, until lightly browned. Stir into the soup. <br/>In a small bowl, mix the half-and-half and flour until smooth. Stir into the soup to thicken. Garnish each bowl of soup with fresh dill to serve.</item>
+        <item>Preheat the oven to 350 degrees F (175 degrees C). Grease a large (10x15-inch) casserole dish. <br/> Combine drained tomatoes and chipotle chiles in adobo in a blender and puree until smooth. <br/>Heat oil in a large skillet over medium heat. Saute onion in hot oil until brown, 5 to 7 minutes. Add garlic and saute 1 minute more. Add pureed tomato-chile sauce and simmer until mixture starts to thicken. Pour in chicken broth and stir in cumin, oregano, and salt; let simmer until mixture thickens. Remove from heat. <br/>Mix tortilla chips and tomato-chile sauce, folding carefully to cover chips completely. You may have to do this in 2 batches. <br/>Cover the bottom of the casserole dish with half of the chip/sauce mixture. Sprinkle a layer of Mexican cheese and cotija cheese over top. Add shredded chicken to cover all of the chips and cheese. Season chicken with salt and pepper, then sprinkle with 1/2 of the green onions and 1/2 of the cilantro. Spoon 3/4 of the sour cream evenly over top. Spread with the remaining tortilla mixture then top with remaining Mexican and cotija cheeses. Cover with aluminum foil. <br/>Bake in the preheated oven until mixture is bubbly and cheese is melted, 35 to 45 minutes. Remove from the oven and let sit for 5 minutes. Serve with sour cream, green onions, and cilantro.</item>
+        <item>Preheat the oven to 375 degrees F (190 degrees C). <br/>Heat olive oil in a saute pan over medium heat. Add onion; cook and stir until translucent, about 5 minutes. Add garlic and heat until fragrant, about 2 minutes. Remove from heat and let cool. <br/>Combine chicken, onion mixture, cheese blend, cream cheese, salsa verde, olives, cilantro, and jalapenos in a large bowl for the filling. Mix well. <br/>Melt butter in a saucepan over medium heat. Stir in flour, then chicken broth. Cook until sauce starts to thicken, 6 to 8 minutes. Stir in sour cream and salsa verde; cook until heated through. Spread a spoonful of sauce over the bottoms of two 9x11-inch casserole dishes. <br/>Wrap a tortilla in a damp paper towel and microwave for about 30 seconds. Fill with the chicken mixture, roll up, and place seam-side down into a baking dish. Repeat with remaining tortillas until each dish holds 8 enchiladas. <br/>Spoon remaining sauce over the enchiladas. Sprinkle cheese on top. <br/>Bake in the preheated oven until heated through, about 20 minutes.</item>
+        <item>Preheat oven to 350 degrees F (175 degrees C). <br/>Place chicken in a roasting pan, and season generously inside and out with salt and pepper. Sprinkle inside and out with onion powder. Place 3 tablespoons margarine in the chicken cavity. Arrange dollops of the remaining margarine around the chicken's exterior. Cut the celery into 3 or 4 pieces, and place in the chicken cavity <br/>Bake uncovered 1 hour and 15 minutes in the preheated oven, to a minimum internal temperature of 180 degrees F (82 degrees C). Remove from heat, and baste with melted margarine and drippings. Cover with aluminum foil, and allow to rest about 30 minutes before serving.</item>
+        <item>Grease and flour two 8 x 4 inch pans. Preheat oven to 325 degrees F (165 degrees C). <br/> Sift flour, salt, baking powder, soda, and cinnamon together in a bowl. <br/>Beat eggs, oil, vanilla, and sugar together in a large bowl. Add sifted ingredients to the creamed mixture, and beat well. Stir in zucchini and nuts until well combined. Pour batter into prepared pans. <br/>Bake for 40 to 60 minutes, or until tester inserted in the center comes out clean. Cool in pan on rack for 20 minutes. Remove bread from pan, and completely cool.</item>
+        <item>Preheat oven to 350 degrees (175 degrees C). <br/>Beat eggs until frothy; add butter, sugar and flour. Beat until smooth. <br/>Stir in buttermilk, vanilla, lemon juice and nutmeg; pour into pie shell. <br/>Bake for 40 to 60 minutes, or until center is firm.</item>
+        <item>Combine 2 1/2 cups sugar, water, cinnamon syrup, and cinnamon sticks in a large saucepan over medium heat. Add pears, cover, and cook for 20 minutes. Strain pears and save poaching liquid for future recipes if desired. Let pears cool. <br/>Cut pears lengthwise into mini slices, leaving the stem end intact. <br/>Preheat the oven to 350 degrees F (175 degrees C). Grease 4 mini oven-proof skillets. <br/>Roll out pie pastry and cut out circles 1/2- to 3/4-inch larger than the mini skillets. Fit dough into the skillets, leaving room for overhang. Lay foil or parchment paper on top of the dough and place pie weights or beans on top. <br/>Bake pie crusts in the preheated oven for 10 to 15 minutes to reduce any shrinking of the crust. Remove foil and weights and let crust cool while preparing the filling; leave oven turned on. <br/>Whisk together 2 cups sugar, flour, nutmeg, and salt in a small bowl and set aside. <br/>Whisk eggs in a large bowl to break them up. Mix in buttermilk, lemon juice, and lemon zest until well combined. Add the sugar-flour mixture and mix well. Stir in melted butter and vanilla paste until just combined. <br/>Divide walnuts among the prebaked crusts, followed by the reserved sliced pears. Pour about 1 cup of the buttermilk mixture into each skillet. Place skillets on a large baking sheet. <br/>Bake for 35 minutes. Reduce heat to 340 degrees F (170 degrees C) and bake until center is set but still slightly jiggly, about 15 minutes more. Place pies on a wire rack and let cool completely.</item>
+        <item>Blend blueberries, grape juice, banana, yogurt, ice, and honey in a blender until smooth, at least 3 minutes.</item>
+        <item>Peel the banana and cut into 1/2-inch chunks. Chill in freezer until solid, about 2 hours. <br/>Place the almonds, oats, and flaxseed meal into a blender; pulse until finely ground. Add the frozen banana, frozen blueberries, yogurt, grape juice, and buttermilk; puree until smooth.</item>
+        <item>Heat oil in a large pot over medium heat. Cook pancetta until most of fat is rendered out, about 6 minutes. Remove cooked pancetta with a slotted spoon and save. <br/>Raise heat to high and transfer meat to the pot. Season with salt. Cook and stir until liquid releases from beef and begins to evaporate, and meat browns, 10 to 15 minutes. <br/>Reduce heat to medium-high. Add celery, carrots, reserved cooked pancetta, salt and pepper. Cook and stir about 5 minutes. Add a heaping tablespoon of tomato paste, bay leaf, and white wine. Cook and stir, scraping up the brownings from the bottom of the pan, 2 to 3 minutes. Add sliced onions. Reduce heat to medium. Cover pot and cook 30 minutes without stirring. After 30 minutes, stir onions and meat until well mixed. Cover again, and cook another 30 minutes. Stir. <br/>Reduce heat to low and cook uncovered 8 to 10 hours, stirring occasionally. Skim off fat as mixture cooks. If sauce seems to reduce too much, add water or broth as needed to maintain a sauce-like consistency. Cook until beef and onions seem to melt into each other. <br/>Bring a large pot of lightly salted water to a boil. Cook rigatoni in the boiling water, stirring occasionally until just barely al dente, 10 to 12 minutes. Drain. <br/>Add rigatoni to the sauce and cook until heated through. Serve topped with a pinch of marjoram and freshly grated Parmigiano-Reggiano cheese.</item>
+        <item>Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. Drain. <br/>Melt butter in a saucepan over medium heat; stir in flour, salt, and pepper until smooth, about 5 minutes. Slowly pour milk into butter-flour mixture while continuously stirring until mixture is smooth and bubbling, about 5 minutes. Add Cheddar cheese to milk mixture and stir until cheese is melted, 2 to 4 minutes. <br/>Fold macaroni into cheese sauce until coated.</item>
+        <item>Melt butter in a large pot over medium heat. Add the stew meat, caraway seeds, onion and paprika. Cook and stir until the meat is browned, and the onions are translucent. Add the garlic and lemon zest, and cook for about a minute, then stir in the tomato paste and beef consomme, adding water if necessary to cover the meat. Cover, and simmer over medium-low heat for 1 1/2 hours. <br/>Just before the meat is done cooking, bring a large pot of salted water to a boil. Add egg noodles, and cook until tender, about 8 minutes. Drain and serve the goulash spooned over the egg noodles.</item>
+        <item>Mix milk, rum liqueur, and pudding mix together in a bowl until thickened. Gently stir whipped topping into pudding mixture. Spoon into disposable shot cups and place on plate. Freeze until chilled and set, at least 3 hours.</item>
+        <item>Pour boiling water over lemon-flavored gelatin in a glass measuring cup; stir to combine. Stir in gin. Pour mixture into sixteen 2-ounce cups. Arrange cups in muffin tins, tilted to one side. <br/>Refrigerate until set, about 4 hours. <br/>Combine 1 1/4 cup sparkling wine and unflavored gelatin in a small pot. Let sit, about 3 minutes. Heat over low heat, stirring constantly, until gelatin is dissolved, 3 to 5 minutes. Add remaining 1/2 cup wine and food coloring; stir to combine. <br/>Remove muffin tins from refrigerator. Set cups upright; pour wine mixture over lemon mixture. <br/>Return to the refrigerator and chill until set, about 4 hours.</item>
+        <item>Pour 1/4 to 1/2 inch of salt onto a small, shallow plate. Moisten the rim of two margarita glasses with water and dip into the salt. Fill with ice, and set aside. <br/>Pour the tequila, triple sec, lime juice, agave nectar, and jalapeno into a cocktail shaker over ice. Cover, and shake vigorously until the outside of the shaker has frosted. Strain into the prepared glasses, and garnish with lime wedges to serve.</item>
+        <item>Cut off the bottom quarter of each nori sheet; reserve for another use.<br/>Combine chopped tuna, mayonnaise, green onions, and hot sauce in a bowl. <br/>Center 1 sheet of nori on a bamboo sushi mat. Wet your hands. Spread a thin layer of rice on the nori using your hands; press into a thin layer, leaving a 1/2-inch space at the bottom edge. Sprinkle with sesame seeds. Arrange 1/4 of the tuna mixture in a line across the rice, about 1/3 of the way down from the top of the sheet. <br/>Wet the uncovered edge of the nori. Lift the top end of the mat and firmly roll it over the ingredients. Roll it forward to make a complete roll. Repeat with remaining ingredients. <br/>Slice the rolls into 3/4-inch pieces using a wet knife. Serve immediately or refrigerate until serving.</item>
+        <item>In a large resealable plastic bag, mix the teriyaki sauce, honey, garlic powder, and ginger. Place red bell peppers, onion wedges, mushrooms, beef, and chicken in the bag with the marinade. Seal, and refrigerate 4 to 24 hours. <br/>Preheat grill for medium-high heat. <br/>Discard marinade, and thread the meat and vegetables onto skewers, leaving a small space between each item. <br/>Lightly oil the grill grate. Grill skewers for 10 minutes, turning as needed, or until meat is cooked through and vegetables are tender.</item>
+        <item>Mix the ground pork, egg, cornstarch, 2 teaspoons of sesame oil, ginger, monosodium glutamate, salt, and half of the chopped green onions together in a bowl. Use your hands to mix until the ingredients are evenly distributed. Set aside. <br/>Heat the vegetable oil in a wok or large skillet over high heat. When the oil is hot, fry the napa cabbage, stirring constantly, until cabbage begins to wilt, 2 to 3 minutes. Pour in the chicken broth, water, and soy sauce. Bring to a boil, then lower the heat to medium. <br/>Use a spoon to form the meat mixture into 1 inch balls. Drop them into the boiling soup. When the last ball has been added, cover with a lid and simmer for 10 minutes. Taste, and adjust salt before serving. Garnish with remaining green onions and a drizzle of sesame oil.</item>
+    </string-array>
+
+    <integer-array name="rating_food">
+        <item>3</item>
+        <item>6</item>
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>6</item>
+        <item>6</item>
+        <item>5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+
+    <string-array name="photo_food">
+        <item>https://ibb.co/vBR5fSK</item>
+        <item>https://ibb.co/8Xm2Vrn</item>
+        <item>https://ibb.co/hVLd2HJ</item>
+        <item>https://ibb.co/5WjnFcr</item>
+        <item>https://ibb.co/Yb1HSRM</item>
+        <item>https://ibb.co/34BfVWR</item>
+        <item>https://ibb.co/q04ry6q</item>
+        <item>https://ibb.co/df2gn1c</item>
+        <item>https://ibb.co/9y9131T</item>
+        <item>https://ibb.co/Yy1gmLq</item>
+        <item>https://ibb.co/9wtfvg5</item>
+        <item>https://ibb.co/zPGRkc6</item>
+        <item>https://ibb.co/xJMthB2</item>
+        <item>https://ibb.co/2sCRxv2</item>
+        <item>https://ibb.co/hCLpsF8</item>
+        <item>https://ibb.co/dQh9pkv</item>
+        <item>https://ibb.co/k5JzMnk</item>
+        <item>https://ibb.co/k5JzMnk</item>
+        <item>https://ibb.co/dPPDFc7</item>
+        <item>https://ibb.co/q0KL3fJ</item>
+        <item>https://ibb.co/fq9qBkH</item>
+        <item>https://ibb.co/C75PkZF</item>
+        <item>https://ibb.co/jg4vqSp</item>
+        <item>https://ibb.co/FKHxWVm</item>
+        <item></item>
+    </string-array>
 </resources>
