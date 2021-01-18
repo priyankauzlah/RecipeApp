@@ -40,29 +40,29 @@
             android:id="@+id/tv_description_food"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_food"
             android:layout_marginStart="@dimen/_16dp"
             android:layout_marginEnd="@dimen/_16dp"
             android:layout_toEndOf="@id/iv_item_food"
-            android:layout_below="@id/tv_name_food"
+            android:ellipsize="end"
             android:fontFamily="@font/poppins_thin"
+            android:maxLines="3"
             android:text="Deskripsi"
             android:textSize="@dimen/_12sp"
-            android:maxLines="3"
-            android:ellipsize="end"
             android:textStyle="bold" />
 
         <RatingBar
+            android:id="@+id/rb_recipe"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/iv_item_food"
-            android:layout_marginStart="@dimen/_16dp"
             android:layout_below="@id/tv_description_food"
-            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_marginStart="@dimen/_16dp"
             android:layout_marginTop="@dimen/_24dp"
-            style="?android:attr/ratingBarStyleSmall"
-            android:numStars="3"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/iv_item_food"
             android:isIndicator="true"
-            android:id="@+id/tb_recipe"/>
+            android:numStars="6" />
 
     </RelativeLayout>
 
