@@ -11,12 +11,27 @@ import kotlinx.android.synthetic.main.item_recipe.view.*
 class ItemAdapter(private val listRecipe: ArrayList<Recipe>) :
     RecyclerView.Adapter<ItemAdapter.ListViewHolder>() {
 
+    private var onItemClickCallBack: OnItemClickCallBack? = null
+
+    fun setOnItemClickCallBack(onItemClickCallBack: OnItemClickCallBack) {
+        this.onItemClickCallBack = onItemClickCallBack
+    }
+
+    interface OnItemClickCallBack {
+        fun onItemClicked(data: Recipe)
+    }
+
     inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind (recipe: Recipe){
-            with(itemView){
-                Glide.with(itemView.context).load(recipe.photo).apply(RequestOptions().override(150, 190))
+        fun bind(recipe: Recipe) {
+            with(itemView) {
+                Glide.with(itemView.context).load(recipe.photo)
+                    .apply(RequestOptions().override(150, 190)).into(iv_item_food)
                 tv_name_food.text = recipe.name
                 tv_description_food.text = recipe.description
+
+                itemView.setOnClickListener{
+                    onItemClickCallBack?.onItemClicked(recipe)
+                }
 
             }
         }
